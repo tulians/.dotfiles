@@ -8,8 +8,8 @@ colorscheme afterglow
 
 " Leader shortcuts
 let mapleader=","
-nmap <leader>, :w<CR> " Save file
-nmap <leader>q :q<CR> " Quit
+nmap <leader>, :w<cr> " Save file
+nmap <leader>q :q<cr> " Quit
 inoremap <leader>. <esc> " Replace <esc>
 
 " Tabs and spaces
@@ -30,9 +30,17 @@ autocmd FileType python setlocal colorcolumn=79 " Add a line length marker to Py
 " Searching
 set incsearch " Search characters as entered
 set hlsearch " Highlight matches
-nnoremap <leader><space> :noh<CR> " Turns off search highlight
+nnoremap <leader><space> :noh<cr> " Turns off search highlight
 
 " Folding
 set foldenable " Enable folding
 set foldlevelstart=10 " Open most folds by default
 set foldnestmax=10 " 10 nested folds max
+
+" Movement
+map <leader>hh :sp<cr> " Horizontal split
+map <leader>vv :vs<cr> " Vertical split
+nnoremap <leader><Left> <C-W><C-H> " Move to the left
+nnoremap <leader><Right> <C-W><C-L> " Move to the right
+nnoremap <leader><Up> <C-W><C-K> " Move up
+nnoremap <leader><Down> <C-W><C-J> " Move down
