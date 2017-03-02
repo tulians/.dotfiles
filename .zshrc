@@ -96,6 +96,7 @@ alias gs="git status"
 alias ga="git add"
 alias gpull="git pull"
 alias gpush="git push"
+alias garc="git add .vimrc .bashrc .zshrc"
 # Projects
 alias tm="cd ~/Documents/tm && vim ."
 alias cy="cd ~/Documents/cypy && vim ."
