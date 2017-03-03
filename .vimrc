@@ -11,6 +11,7 @@ let mapleader=","
 nmap <leader>, :w<cr> " Save file
 nmap <leader>q :q<cr> " Quit
 inoremap <leader>. <esc> " Replace <esc>
+nmap <leader>ee :Explore<cr> " Go to file explorer
 
 " Tabs and spaces
 set tabstop=4 " Number of visual spaces per <TAB> when Vim opens a file
