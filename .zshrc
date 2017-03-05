@@ -94,6 +94,7 @@ alias p8="ping 8.8.8.8"
 # Git
 alias gs="git status"
 alias ga="git add"
+alias gc="git commit -m"
 alias gpull="git pull"
 alias gpush="git push"
 alias garc="git add .vimrc .bashrc .zshrc"
