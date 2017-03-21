@@ -105,3 +105,5 @@ alias ml="cd ~/Documents/aml && vim ."
 alias tmd="cd ~/Documents/tm"
 alias cyd="cd ~/Documents/cypy"
 alias mld="cd ~/Documents/aml"
+# Tensorflow
+alias tfenv="source ~/tensorflow/bin/activate"

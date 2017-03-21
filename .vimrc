@@ -27,6 +27,8 @@ set lazyredraw " Redraw only when needed
 set showmatch " Highlight pair when steping with cursor
 set ruler " Shows the current position of the cursor
 autocmd FileType python setlocal colorcolumn=79 " Add a line length marker to Python files
+highlight MyGroup ctermfg=red " Highlight 'self' in red.
+match MyGroup /self/
 
 " Searching
 set incsearch " Search characters as entered
